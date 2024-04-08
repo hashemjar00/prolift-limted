@@ -1,0 +1,233 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Light gray background color */
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style-type: none;
+}
+
+.nav-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease; /* Smooth transition for link color */
+}
+
+.nav-links a:hover {
+    color: #ff6600; /* Change link color on hover */
+}
+
+/* Hero section styles */
+#hero {
+    background-image: url('hero-image.jpg'); /* Change 'hero-image.jpg' to your actual hero image */
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Smooth transition for button background color */
+}
+
+.btn:hover {
+    background-color: #e55d00; /* Change button background color on hover */
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-links {
+    list-style-type: none;
+}
+
+.footer-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease; /* Smooth transition for link color */
+}
+
+.footer-links a:hover {
+    color: #ff6600; /* Change link color on hover */
+}
+
+.footer-info p {
+    margin-top: 20px;
+}
+
+/* Section styles */
+.section {
+    padding: 50px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    background-color: #fff; /* White background color for section containers */
+    border-radius: 10px; /* Rounded corners for section containers */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Drop shadow for section containers */
+    transition: transform 0.3s ease; /* Smooth transition for section container transformation */
+}
+
+.container:hover {
+    transform: translateY(-5px); /* Move section container up slightly on hover */
+}
+
+.section h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.section p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.service {
+    margin-bottom: 30px;
+}
+
+.service h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#products ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+#portfolio .portfolio-item {
+    margin-bottom: 30px;
+}
+
+#portfolio .portfolio-item img {
+    max-width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease; /* Smooth transition for portfolio image transformation */
+}
+
+#portfolio .portfolio-item:hover img {
+    transform: scale(1.1); /* Scale portfolio image on hover */
+}
+
+#blog .blog-post {
+    margin-bottom: 30px;
+}
+
+#blog .blog-post h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#contact label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact textarea {
+    height: 150px;
+}
+
+#contact button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for button background color */
+}
+
+#contact button:hover {
+    background-color: #e55d00; /* Change button background color on hover */
+}
